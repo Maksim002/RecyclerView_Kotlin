@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_V"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+    <TextView
+        android:layout_margin="8dp"
+        android:id="@+id/text_V"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bodi"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/text_Vv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textSize="16dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
